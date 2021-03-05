@@ -1465,19 +1465,22 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     margin-right: 7px
 }
 
+.text-center{
+    text-align: center;
+}
 .btn {
     background-color: #989CFF;
     border-radius: 10px;
-    display: flex;
-    width: fit-content;
-    margin: 0 auto;
-    align-items: center;
+    display: inline-block;
     color: #fff;
     text-decoration: none;
     padding: 10px;
     font-size: 22px
 }
-
+.btn span{
+    display: inline-block;
+    vertical-align: middle;
+}
 .btn:hover,.btn:active {
     background-color: #868BFF
 }
