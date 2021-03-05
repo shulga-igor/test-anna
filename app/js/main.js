@@ -16,9 +16,10 @@ jQuery(document).ready(function($) {
     monitor.animate();
 
     $('.masonry').lightGallery({
-        selector: 'a'
+        selector: 'a',
+        zoom: false
     });
-    
+
     $(window).scroll(function() {
         scrollView($('.content__block-item--about .content__title'), 1000);
         scrollView($('.content__block-item--skills .content__title'), 1000);
