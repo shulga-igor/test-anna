@@ -1263,7 +1263,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .masonry {
-    margin: 20px auto;
+    margin: 0 -10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -1274,6 +1274,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     background-color: #3c2c62;
     color: #fff;
     margin: 0 10px 20px;
+    display: inline-block;
 }
 @media (max-width: 767px) {
     .masonry__item {
@@ -1282,6 +1283,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 @media (max-width: 400px) {
+    .masonry {
+        margin: 0;
+    }
     .masonry__item {
         max-width: 100%; 
     }
