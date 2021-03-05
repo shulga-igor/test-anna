@@ -1270,7 +1270,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .masonry__item {
     width: 100%;
-    max-width: calc(100% / 3 - 20px);
+    max-width: calc(100% / 3 - 23px);
     background-color: #3c2c62;
     color: #fff;
     margin: 0 10px 20px;
@@ -1278,7 +1278,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 @media (max-width: 767px) {
     .masonry__item {
-        max-width: calc(100% / 2 - 20px); 
+        max-width: calc(100% / 2 - 23px); 
     }
 }
 
